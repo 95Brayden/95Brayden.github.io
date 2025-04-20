@@ -1,0 +1,657 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>brayden's website | brayden's website</title><meta name="author" content="Brayden Wu"><meta name="copyright" content="Brayden Wu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="云南之旅 | 2025.4.26-5.1 旅行规划表 (含住宿交通)                    &#x2F;* CSS styles remain the same as the previous version *&#x2F;         &#x2F;* Basic styles *&#x2F;         * { margin: 0; padding: 0; box-sizing">
+<meta property="og:type" content="website">
+<meta property="og:title" content="brayden&#39;s website">
+<meta property="og:url" content="http://example.com/travel/index.html">
+<meta property="og:site_name" content="brayden&#39;s website">
+<meta property="og:description" content="云南之旅 | 2025.4.26-5.1 旅行规划表 (含住宿交通)                    &#x2F;* CSS styles remain the same as the previous version *&#x2F;         &#x2F;* Basic styles *&#x2F;         * { margin: 0; padding: 0; box-sizing">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:published_time" content="2025-04-20T15:03:59.336Z">
+<meta property="article:modified_time" content="2025-04-20T14:13:25.675Z">
+<meta property="article:author" content="Brayden Wu">
+<meta property="article:tag" content="编程 自动驾驶 数据开发 摄影 旅行">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/travel/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'brayden\'s website',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">brayden's website</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title"></h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云南之旅 | 2025.4.26-5.1 旅行规划表 (含住宿交通)</title> <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS styles remain the same as the previous version */
+        /* Basic styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans SC', sans-serif; background-color: #fff; color: #333; width: 210mm; height: 297mm; margin: 0 auto; padding: 10mm; position: relative; }
+        /* Crop marks */
+        .crop-mark-top-left, .crop-mark-top-right, .crop-mark-bottom-left, .crop-mark-bottom-right { position: absolute; width: 10mm; height: 10mm; border: 1px dashed #ccc; }
+        .crop-mark-top-left { top: 5mm; left: 5mm; border-right: none; border-bottom: none; }
+        .crop-mark-top-right { top: 5mm; right: 5mm; border-left: none; border-bottom: none; }
+        .crop-mark-bottom-left { bottom: 5mm; left: 5mm; border-right: none; border-top: none; }
+        .crop-mark-bottom-right { bottom: 5mm; right: 5mm; border-left: none; border-top: none; }
+        /* Titles */
+        .main-title { text-align: center; margin-bottom: 10px; position: relative; }
+        .title { font-size: 28px; font-weight: 700; color: #0066cc; margin-bottom: 5px; position: relative; display: inline-block; }
+        .title::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, transparent, #0066cc, transparent); }
+        .subtitle { font-size: 14px; color: #666; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; }
+        /* Overview */
+        .trip-overview { margin: 10px 0; padding: 8px; background-color: #f8f9fa; border-radius: 5px; border-left: 3px solid #0066cc; }
+        .trip-overview h3 { font-size: 16px; margin-bottom: 5px; color: #0066cc; }
+        .overview-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px; }
+        .overview-day { text-align: center; padding: 5px; font-size: 12px; border: 1px solid #e0e0e0; border-radius: 3px; background-color: #fff; }
+        .overview-day h4 { margin-bottom: 3px; font-size: 13px; color: #0066cc; }
+        .day-content { font-size: 11px; }
+        /* Schedule */
+        .daily-schedule { margin: 15px 0; }
+        .daily-schedule h3 { font-size: 16px; margin-bottom: 8px; color: #0066cc; border-bottom: 1px solid #e0e0e0; padding-bottom: 3px; }
+        .day-tab { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+        .tab-button { padding: 5px 10px; background-color: #f0f0f0; border: 1px solid #ddd; border-radius: 3px; cursor: pointer; font-size: 12px; }
+        .tab-button.active { background-color: #0066cc; color: white; border-color: #0055aa; }
+        .day-content-container { position: relative; }
+        .schedule-table { width: 100%; border-collapse: collapse; margin-bottom: 10px; font-size: 12px; }
+        .schedule-table th { background-color: #f0f6ff; border: 1px solid #ddd; padding: 5px 8px; text-align: left; font-weight: 500;}
+        .schedule-table td { border: 1px solid #ddd; padding: 5px 8px; vertical-align: top; }
+        .schedule-table .time-cell { width: 15%; font-weight: 500; color: #333; }
+        .schedule-table .activity-cell { width: 25%; }
+        .schedule-table .location-cell { width: 25%; }
+        .schedule-table .notes-cell { width: 35%; font-size: 11px; color: #555; }
+        /* Transportation */
+        .transportation { margin: 15px 0; }
+        .transportation h3 { font-size: 16px; margin-bottom: 8px; color: #0066cc; border-bottom: 1px solid #e0e0e0; padding-bottom: 3px; }
+        .transport-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .transport-item { font-size: 12px; padding: 8px; border: 1px solid #e0e0e0; border-radius: 3px; background-color: #fff; }
+        .transport-item h4 { font-size: 13px; margin-bottom: 5px; color: #333; border-bottom: 1px dotted #ccc; padding-bottom: 3px;}
+        .transport-item p { margin-bottom: 3px; line-height: 1.4; }
+        /* Accommodation & Dining */
+        .accommodation-dining { margin: 15px 0; }
+        .accommodation-dining h3 { font-size: 16px; margin-bottom: 8px; color: #0066cc; border-bottom: 1px solid #e0e0e0; padding-bottom: 3px; }
+        .accom-dining-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .accom-item, .dining-item { font-size: 12px; padding: 8px; border: 1px solid #e0e0e0; border-radius: 3px; background-color: #fff; }
+        .accom-item h4, .dining-item h4 { font-size: 13px; margin-bottom: 5px; color: #333; border-bottom: 1px dotted #ccc; padding-bottom: 3px;}
+        .accom-item p, .dining-item p { margin-bottom: 3px; line-height: 1.4;}
+        /* Useful Info */
+        .useful-info { margin: 15px 0; }
+        .useful-info h3 { font-size: 16px; margin-bottom: 8px; color: #0066cc; border-bottom: 1px solid #e0e0e0; padding-bottom: 3px; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+        .info-item { font-size: 12px; padding: 8px; border: 1px solid #e0e0e0; border-radius: 3px; background-color: #fff;}
+        .info-item h4 { font-size: 13px; margin-bottom: 5px; color: #333; border-bottom: 1px dotted #ccc; padding-bottom: 3px;}
+        .info-list { padding-left: 15px; margin: 5px 0 0 0; list-style-position: outside; }
+        .info-list li { margin-bottom: 3px; line-height: 1.4; }
+        /* Icons */
+        .icon { display: inline-block; width: 16px; text-align: center; margin-right: 5px; color: #0066cc; }
+        /* Print button */
+        .print-button { position: fixed; bottom: 20px; right: 20px; padding: 8px 15px; background-color: #0066cc; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; }
+        /* Footer */
+        .footer { text-align: center; font-size: 10px; color: #999; margin-top: 15px; padding-top: 5px; border-top: 1px solid #e0e0e0; }
+        /* Print styles */
+        @media print {
+            body { width: auto; height: auto; margin: 0; padding: 10mm; box-shadow: none; border: none; background-color: #fff; }
+            .print-button { display: none; }
+            .crop-mark-top-left, .crop-mark-top-right, .crop-mark-bottom-left, .crop-mark-bottom-right { display: none; }
+            .transport-grid, .accom-dining-grid, .info-grid { grid-template-columns: 1fr 1fr; }
+            .info-grid { grid-template-columns: repeat(3, 1fr); }
+            h1, h3, h4 { color: #000 !important; }
+            .icon { color: #000 !important; }
+            a { text-decoration: none; color: #000; }
+            .schedule-table th { background-color: #eee; }
+            .transport-item, .accom-item, .dining-item, .info-item, .trip-overview { background-color: #fff; border: 1px solid #ccc; }
+             body { -webkit-print-color-adjust: exact !important; color-adjust: exact !important; }
+        }
+    </style>
+</head>
+<body>
+    <div class="crop-mark-top-left"></div>
+    <div class="crop-mark-top-right"></div>
+    <div class="crop-mark-bottom-left"></div>
+    <div class="crop-mark-bottom-right"></div>
+
+    <div class="main-title">
+        <h1 class="title">云南双城之旅 · 昆明&大理</h1>
+        <div class="subtitle">
+            <span><i class="fas fa-calendar-alt icon"></i>2025年4月26日 - 5月1日（6天5晚）</span>
+            <span><i class="fas fa-users icon"></i>吴志鹏、叶昕霏、钟蕤泽、张艺佳</span>
+            <span id="weather-info"><i class="fas fa-cloud-sun icon"></i>昆明15-28°C (晴到多云) / 大理12-26°C (多变，小雨到晴)</span>
+        </div>
+        <p style="font-size: 10px; color: #e67e22; text-align: center; margin-top: 5px;"><b>注意:</b> 天气为近期预测，大理天气多变，出行前务必查询最新天气预报！</p>
+    </div>
+
+    <div class="trip-overview">
+        <h3><i class="fas fa-map-marked-alt icon"></i>行程概览</h3>
+        <div class="overview-grid">
+             <div class="overview-day"><h4>D1·4.26</h4><div class="day-content">各地→昆明<br>机场/车站集合<br>酒店入住&晚餐</div></div>
+             <div class="overview-day"><h4>D2·4.27</h4><div class="day-content">[昆明]<br>翠湖公园<br>福保村<br>南屏街</div></div>
+             <div class="overview-day"><h4>D3·4.28</h4><div class="day-content">昆明→大理 (高铁)<br>[大理] 大理古城<br>洋人街</div></div>
+             <div class="overview-day"><h4>D4·4.29</h4><div class="day-content">[大理]<br>洱海海西骑行<br>喜洲古镇</div></div>
+             <div class="overview-day"><h4>D5·4.30</h4><div class="day-content">[大理]<br>沙溪古镇<br>海禾村</div></div>
+             <div class="overview-day"><h4>D6·5.1</h4><div class="day-content">[大理]<br>龙龛码头日出<br>才村鲜花饼<br>返程 (高铁)</div></div>
+        </div>
+    </div>
+
+    <div class="daily-schedule">
+        <h3><i class="fas fa-clipboard-list icon"></i>详细日程</h3>
+        <div class="day-tab">
+            <button class="tab-button active" onclick="showDay(1)">D1·4.26 抵达昆明</button>
+            <button class="tab-button" onclick="showDay(2)">D2·4.27 昆明</button>
+            <button class="tab-button" onclick="showDay(3)">D3·4.28 昆明→大理</button>
+            <button class="tab-button" onclick="showDay(4)">D4·4.29 大理·洱海</button>
+            <button class="tab-button" onclick="showDay(5)">D5·4.30 大理·沙溪</button>
+            <button class="tab-button" onclick="showDay(6)">D6·5.1 大理&返程</button>
+        </div>
+
+        <div class="day-content-container">
+            <div id="day1" class="day-content">
+                <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">10:00-12:15</td><td class="activity-cell">吴: 乘坐祥鹏8L9874</td><td class="location-cell">武汉天河 → 昆明长水</td><td class="notes-cell">经济舱 (￥570/出票完成)。</td></tr>
+                         <tr><td class="time-cell">15:40-18:40</td><td class="activity-cell">叶: 乘坐昆航KY3216</td><td class="location-cell">泉州 → 昆明长水</td><td class="notes-cell">经济舱 (出票完成)。托运行李20KG。</td></tr>
+                         <tr><td class="time-cell">09:02-18:26</td><td class="activity-cell">钟 & 张: 动车D3 + 高铁G2849</td><td class="location-cell">恩施 → 昆明站</td><td class="notes-cell">二等座 (<span style="color:orange;">抢票中</span>)。中转重庆西(G2849)，需**异站换乘**。</td></tr>
+                         <tr><td class="time-cell">抵达后 (约18:40前)</td><td class="activity-cell">各自前往酒店</td><td class="location-cell">机场/火车站 → 酒店</td><td class="notes-cell">长水机场打车约40分钟/80元。昆明站打车约20分钟/25元。</td></tr>
+                         <tr><td class="time-cell">约 19:00 - 19:30</td><td class="activity-cell">酒店集合 & 办理入住</td><td class="location-cell">昱凯·尚轩智能轻奢酒店 (翠湖公园店)</td><td class="notes-cell">所有成员汇合。准备身份证。</td></tr>
+                         <tr><td class="time-cell">19:30-21:00</td><td class="activity-cell">晚餐</td><td class="location-cell">酒店附近 或 南屏街</td><td class="notes-cell">推荐：过桥米线、汽锅鸡。</td></tr>
+                         <tr><td class="time-cell">21:00后</td><td class="activity-cell">自由活动/休息</td><td class="location-cell">酒店/周边</td><td class="notes-cell">适应海拔，早点休息。</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="day2" class="day-content" style="display: none;">
+                 <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">08:00-09:00</td><td class="activity-cell">酒店早餐</td><td class="location-cell">酒店内</td><td class="notes-cell"></td></tr>
+                         <tr><td class="time-cell">09:30-11:30</td><td class="activity-cell">游览翠湖公园</td><td class="location-cell">翠湖公园</td><td class="notes-cell">酒店周边步行可达，感受昆明"春城"魅力，观赏翠湖鸥鸟</td></tr>
+                         <tr><td class="time-cell">12:00-13:30</td><td class="activity-cell">午餐</td><td class="location-cell">翠湖周边餐厅</td><td class="notes-cell">可品尝过桥米线、汽锅鸡等当地特色</td></tr>
+                         <tr><td class="time-cell">14:00-17:00</td><td class="activity-cell">参观福保村</td><td class="location-cell">官渡区六甲街道</td><td class="notes-cell">滇池旁的热带风情小渔村，打车约40分钟/15.5公里，拍照休闲</td></tr>
+                         <tr><td class="time-cell">18:00-20:00</td><td class="activity-cell">南屏街夜市&晚餐</td><td class="location-cell">南屏街步行街</td><td class="notes-cell">从福保村返回市区约35分钟，体验昆明夜生活，品尝各种小吃</td></tr>
+                         <tr><td class="time-cell">20:30-21:30</td><td class="activity-cell">特色饮品 (可选)</td><td class="location-cell">象子茶铺(翠湖店)</td><td class="notes-cell">推荐：版纳凤梨小甜酒、木姜子凤梨冰茶</td></tr>
+                     </tbody>
+                </table>
+            </div>
+
+            <div id="day3" class="day-content" style="display: none;">
+                 <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">08:00-09:00</td><td class="activity-cell">酒店早餐 & 退房</td><td class="location-cell">昱凯·尚轩酒店</td><td class="notes-cell">提前收拾好行李</td></tr>
+                         <tr><td class="time-cell">10:30-11:00</td><td class="activity-cell">前往昆明站</td><td class="location-cell">酒店 → 昆明站</td><td class="notes-cell">打车约30分钟/10公里。留足进站安检时间</td></tr>
+                         <tr><td class="time-cell">12:18-14:36</td><td class="activity-cell">乘坐高铁 D8702</td><td class="location-cell">昆明 → 大理</td><td class="notes-cell">二等座 (￥145/人, 已购票)。座位: 02车11F/D, 06车01D/F。检票口: 7B</td></tr>
+                         <tr><td class="time-cell">14:45-15:45</td><td class="activity-cell">前往大理住宿地</td><td class="location-cell">大理站 → 大美古城别墅</td><td class="notes-cell">打车或预约接站，约40分钟/18.7公里</td></tr>
+                          <tr><td class="time-cell">15:45-16:30</td><td class="activity-cell">办理入住 & 稍作休整</td><td class="location-cell">大美古城苍山洱海别墅整层庭院</td><td class="notes-cell">安顿行李</td></tr>
+                         <tr><td class="time-cell">16:30-20:00</td><td class="activity-cell">大理古城闲逛 & 晚餐</td><td class="location-cell">人民路、洋人街、复兴路</td><td class="notes-cell">感受古城氛围，品尝小吃或找家餐厅用餐 (如白族菜)</td></tr>
+                     </tbody>
+                 </table>
+            </div>
+
+            <div id="day4" class="day-content" style="display: none;">
+                  <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">08:00-09:00</td><td class="activity-cell">早餐</td><td class="location-cell">住宿地/古城</td><td class="notes-cell"></td></tr>
+                         <tr><td class="time-cell">09:30-13:00</td><td class="activity-cell">洱海海西生态廊道骑行</td><td class="location-cell">古城→才村→喜洲方向</td><td class="notes-cell">租电动车/自行车(推荐电动)。单程约20公里，约34分钟。沿途欣赏苍洱风光，可在网红点拍照</td></tr>
+                         <tr><td class="time-cell">13:00-14:00</td><td class="activity-cell">午餐</td><td class="location-cell">喜洲古镇</td><td class="notes-cell">品尝当地特色餐厅或白族美食</td></tr>
+                         <tr><td class="time-cell">14:00-16:30</td><td class="activity-cell">游览喜洲古镇</td><td class="location-cell">喜洲古镇</td><td class="notes-cell">参观白族民居(严家大院等)，品尝喜洲粑粑，逛四方街</td></tr>
+                         <tr><td class="time-cell">16:30-18:00</td><td class="activity-cell">返回大理古城</td><td class="location-cell">喜洲→大理古城</td><td class="notes-cell">注意把握返程时间，避免天黑骑行</td></tr>
+                          <tr><td class="time-cell">18:30-20:00</td><td class="activity-cell">晚餐</td><td class="location-cell">大理古城</td><td class="notes-cell">还车。晚餐可尝试特色火锅或炒菜</td></tr>
+                          <tr><td class="time-cell">晚上</td><td class="activity-cell">古城夜景/休息</td><td class="location-cell">大理古城</td><td class="notes-cell">根据体力情况选择休息或感受古城夜晚的活力</td></tr>
+                    </tbody>
+                 </table>
+            </div>
+
+            <div id="day5" class="day-content" style="display: none;">
+                  <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">07:00-07:45</td><td class="activity-cell">早餐</td><td class="location-cell">住宿地/古城</td><td class="notes-cell">提前吃早餐，为一天行程做准备</td></tr>
+                         <tr><td class="time-cell">08:00-10:00</td><td class="activity-cell">前往沙溪古镇</td><td class="location-cell">大理古城 → 沙溪古镇</td><td class="notes-cell">包车约130公里/2小时，提前一天预约车辆，人均约150元左右</td></tr>
+                         <tr><td class="time-cell">10:00-12:30</td><td class="activity-cell">沙溪古镇游览</td><td class="location-cell">寺登街、四方街、古戏台、玉津桥</td><td class="notes-cell">体验茶马古道遗韵，感受宁静古朴氛围，拍照留念</td></tr>
+                         <tr><td class="time-cell">12:30-13:30</td><td class="activity-cell">午餐</td><td class="location-cell">沙溪古镇内</td><td class="notes-cell">品尝当地特色菜肴(如：沙溪三文鱼、菌类)</td></tr>
+                         <tr><td class="time-cell">13:45-14:45</td><td class="activity-cell">前往海禾村</td><td class="location-cell">沙溪古镇 → 海禾村</td><td class="notes-cell">与司机协商路线，约1小时车程</td></tr>
+                         <tr><td class="time-cell">14:45-16:30</td><td class="activity-cell">游览海禾村</td><td class="location-cell">海禾村</td><td class="notes-cell">体验另一处白族村落风情，观赏田园风光</td></tr>
+                         <tr><td class="time-cell">16:30-18:30</td><td class="activity-cell">返回大理古城</td><td class="location-cell">海禾村 → 大理古城</td><td class="notes-cell">返程约2小时，注意把握返回时间</td></tr>
+                         <tr><td class="time-cell">19:00-20:30</td><td class="activity-cell">晚餐</td><td class="location-cell">大理古城</td><td class="notes-cell">选择一家评分高的餐厅，犒劳一天的辛苦</td></tr>
+                         <tr><td class="time-cell">21:00-</td><td class="activity-cell">休息</td><td class="location-cell">住宿地</td><td class="notes-cell">为次日早起看日出保存体力</td></tr>
+                     </tbody>
+                </table>
+            </div>
+
+            <div id="day6" class="day-content" style="display: none;">
+                 <table class="schedule-table">
+                     <thead><tr><th class="time-cell">时间</th><th class="activity-cell">活动</th><th class="location-cell">地点</th><th class="notes-cell">备注</th></tr></thead>
+                     <tbody>
+                         <tr><td class="time-cell">05:30-06:00</td><td class="activity-cell">起床 & 前往码头</td><td class="location-cell">住宿地 → 龙龛码头</td><td class="notes-cell">提前预约车辆(约5公里)，带上保暖衣物和相机</td></tr>
+                         <tr><td class="time-cell">06:00-07:15</td><td class="activity-cell">观赏洱海日出</td><td class="location-cell">龙龛码头</td><td class="notes-cell">5-6月日出时间约6:00-6:30，可以拍摄绝美日出照片</td></tr>
+                         <tr><td class="time-cell">07:30-09:00</td><td class="activity-cell">前往才村 & 早餐</td><td class="location-cell">龙龛码头 → 才村</td><td class="notes-cell">距离约2公里，可品尝当地早餐</td></tr>
+                         <tr><td class="time-cell">09:00-10:30</td><td class="activity-cell">才村游览 & 购买鲜花饼</td><td class="location-cell">才村</td><td class="notes-cell">推荐购买才村侈鲜花饼作为伴手礼，现做现卖非常新鲜</td></tr>
+                         <tr><td class="time-cell">10:45-11:30</td><td class="activity-cell">返回住宿地</td><td class="location-cell">才村 → 住宿地</td><td class="notes-cell">距离约4公里，打车约12分钟</td></tr>
+                         <tr><td class="time-cell">11:30-13:00</td><td class="activity-cell">整理行李 & 午餐 & 退房</td><td class="location-cell">大美古城别墅</td><td class="notes-cell">打包行李，确保贵重物品和购买的伴手礼安全收好</td></tr>
+                         <tr><td class="time-cell">13:30-15:00</td><td class="activity-cell">前往大理站</td><td class="location-cell">住宿地 → 大理站</td><td class="notes-cell">提前出发，打车约40分钟/18.7公里，留出充足时间</td></tr>
+                         <tr><td class="time-cell">15:58-23:02</td><td class="activity-cell">全体: 乘坐高铁 G2842</td><td class="location-cell">大理 → 重庆西</td>
+                            <td class="notes-cell">二等座 座位: 03车06A/C (吴叶), 03车04C/D (钟张)。检票口: 一层1号 (以车站为准)</td></tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="transportation">
+        <h3><i class="fas fa-bus icon"></i>交通信息</h3>
+        <div class="transport-grid">
+            <div class="transport-item">
+                <h4><i class="fas fa-plane icon"></i><i class="fas fa-train icon"></i> 各地→昆明 (4.26)</h4>
+                <p>吴: 祥鹏8L9874 (武汉→昆明 10:00-12:15, 已出票)</p>
+                <p>叶: 昆航KY3216 (泉州→昆明 15:40-18:40, 已出票)</p>
+                <p>钟&张: 动车+高铁 (恩施→昆明 09:02-18:26, <span style="color:orange;">重庆异站换乘</span>)</p>
+            </div>
+            <div class="transport-item">
+                <h4><i class="fas fa-train icon"></i> 昆明→大理 (4.28)</h4>
+                <p>全体: 高铁 D8702 (12:18-14:36)</p>
+                <p>状态: 已购票 (￥145/人)</p>
+                <p>座位: 02车11F/D, 06车01D/F。检票口: 7B</p>
+            </div>
+             <div class="transport-item">
+                <h4><i class="fas fa-train icon"></i> 大理→重庆西 (5.1)</h4>
+                <p>全体: 高铁 G2842 (15:58-23:02)</p> <p>状态: 已购票/抢票成功 (￥502/人)</p> <p>座位: 03车06A/C (吴叶,非连座), 03车04C/D (钟张)。检票口: 一层1号 (以车站为准)</p> </div>
+            <div class="transport-item">
+                <h4><i class="fas fa-bicycle icon"></i> 大理洱海骑行 (4.29)</h4>
+                <p>方式: 租电动车 (推荐)/自行车</p>
+                <p>路线: 古城→才村→喜洲 (海西生态廊道)</p>
+                <p>距离: 单程约20公里，骑行约30-40分钟</p>
+                <p>费用: 约50-80元/天/车</p>
+            </div>
+             <div class="transport-item">
+                <h4><i class="fas fa-car icon"></i> 昆明市内交通</h4>
+                <p>翠湖→福保村: 约15.5公里，打车约40分钟</p>
+                <p>福保村→市区: 约13公里，打车约35分钟</p>
+                <p>机场→酒店: 约27公里，打车约50分钟/100元</p>
+                <p>火车站→酒店: 约10公里，打车约30分钟/30元</p>
+            </div>
+            <div class="transport-item">
+                <h4><i class="fas fa-taxi icon"></i> 大理交通</h4>
+                <p>大理站→古城: 约18.7公里，打车约40分钟/60元</p>
+                <p>古城→龙龛码头: 约5公里，打车约15分钟</p>
+                <p>古城→才村码头: 约4公里，打车约12分钟</p>
+                <p>提示: 建议使用高德/滴滴等软件叫车</p>
+            </div>
+            <div class="transport-item">
+                <h4><i class="fas fa-car icon"></i> 沙溪古镇一日游 (4.30)</h4>
+                <p>方式: 包车 (推荐预约)</p>
+                <p>路线: 大理古城 → 沙溪古镇 → 海禾村 → 古城</p>
+                <p>距离: 约130公里(单程)，车程约2小时</p>
+                <p>费用: 全天包车约600-800元 (可4人分摊)</p>
+                <p>提示: 提前一天联系司机，约定行程和返回时间</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accommodation-dining">
+        <h3><i class="fas fa-bed icon"></i>住宿与餐饮</h3>
+        <div class="accom-dining-grid">
+            <div class="accom-item">
+                <h4><i class="fas fa-hotel icon"></i>昆明住宿 (4.26-4.28, 2晚)</h4>
+                <p>酒店: 昱凯·尚轩智能轻奢酒店 (昆明翠湖公园店)</p> 
+                <p>地址: 五华区国防路与金碧路交叉口金联大厦</p> 
+                <p>位置: 翠湖公园附近，位置便利</p>
+                <p>费用: ¥369 (总价)</p> 
+            </div>
+            <div class="accom-item">
+                <h4><i class="fas fa-home icon"></i>大理住宿 (4.28-5.1, 3晚)</h4>
+                <p>民宿: 大美古城苍山洱海别墅整层庭院</p> 
+                <p>地址: 大理州大理市下关镇 苍海一墅八期</p> 
+                <p>位置: 大理古城内，步行可达主要街区</p>
+                <p>费用: ¥822 (总价)</p> 
+            </div>
+            <div class="dining-item">
+                <h4><i class="fas fa-utensils icon"></i>昆明美食推荐</h4>
+                <p>必尝: 过桥米线、汽锅鸡、小锅米线、烧饵块、豆花米线</p>
+                <p>人均: 午餐约40-60元，晚餐约60-100元</p>
+                <p>餐厅: 翠湖周边-福照楼、老滇味、文庙后海米线</p>
+                <p>饮品: 象子茶铺(特色云南茶饮)</p>
+            </div>
+            <div class="dining-item">
+                <h4><i class="fas fa-coffee icon"></i>大理美食推荐</h4>
+                <p>必尝: 洱海鱼(酸辣鱼/砂锅鱼)、黄焖鸡、烤乳扇、饵丝/饵块</p>
+                <p>特色: 白族三道茶、喜洲粑粑、鲜花饼</p>
+                <p>推荐: 古城内-段公子、嗨螺青花椒、大理风味小馆</p>
+                <p>备注: 大理古城餐饮价格普遍略高，人均约80-120元/正餐</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="useful-info">
+        <h3><i class="fas fa-info-circle icon"></i>实用信息</h3>
+        <div class="info-grid">
+            <div class="info-item">
+                <h4><i class="fas fa-suitcase icon"></i>行李清单</h4>
+                <ul class="info-list">
+                    <li><b>证件:</b> 身份证 (必带!), 少量现金, 银行卡/手机支付</li>
+                    <li><b>衣物:</b> 短袖/T恤, 薄外套/抓绒衣 (早晚), 舒适长裤, 舒适鞋 (徒步/运动鞋), 袜子若干, (可选: 裙子/适合拍照衣物)</li>
+                    <li><b>防晒:</b> 高倍防晒霜 (SPF50+), 墨镜, 遮阳帽/伞 (紫外线强!)</li>
+                    <li><b>护理:</b> 个人洗漱用品, 润唇膏, 补水护肤品 (气候干燥)</li>
+                    <li><b>电子:</b> 手机, 充电器, 充电宝, 相机 (可选)</li>
+                    <li><b>药品:</b> 感冒药, 肠胃药, 晕车药, 创可贴, 个人常用药</li>
+                    <li><b>其他:</b> 轻便雨具, 小背包 (日用), 保温杯 (可选)</li>
+                </ul>
+            </div>
+             <div class="info-item">
+                <h4><i class="fas fa-sun icon"></i>天气与穿着 (重要提示)</h4>
+                <ul class="info-list">
+                    <li><b>昆明最新天气:</b> 15-28°C，晴到多云为主，紫外线强</li>
+                    <li><b>大理最新天气:</b> 12-26°C，天气多变，可能有小雨转晴，风力较大</li>
+                    <li><b>穿着建议:</b> 短袖/T恤+轻薄外套为主，备一件防风防雨的冲锋衣</li>
+                    <li><b>重点提示:</b> 大理紫外线极强，防晒工作必不可少！建议带遮阳帽、防晒霜(SPF50+)、墨镜</li>
+                    <li><b>洱海骑行:</b> 备防晒衣物，风大时注意保暖，骑行时戴口罩可防尘</li>
+                    <li><b>早晚温差:</b> 两地早晚温差都较大，建议带一件薄羊毛衫或轻薄抓绒</li>
+                    <li><b style="color: #e67e22;">提醒:</b> 请在出发前再次查询最新天气预报，大理天气尤为多变！</li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h4><i class="fas fa-money-bill-wave icon"></i>费用预算 (参考)</h4>
+                <ul class="info-list">
+                     <li>交通: 大交通已购/抢票中 (见明细)</li>
+                     <li>住宿: 昆明(¥369/2晚), 大理(¥822/3晚) - 已定</li>
+                     <li>餐饮: 约150-250元/人/天</li>
+                     <li>门票/活动/当地交通: 约600-1000元/人 (含租车/包车)</li>
+                     <li>购物/其他: 个人决定</li>
+                     <li><b>预估总消费 (不含大交通): 约 3500-5500元/人</b></li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h4><i class="fas fa-phone icon"></i>紧急联系</h4>
+                <ul class="info-list">
+                    <li>报警: 110 / 急救: 120 / 消防: 119</li>
+                    <li>全国旅游服务热线: 12301</li>
+                    <li>铁路客服: 12306</li>
+                    <li>昆明长水机场: 0871-96588</li>
+                    <li>大理机场: 0872-2315335</li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h4><i class="fas fa-lightbulb icon"></i>注意事项</h4>
+                <ul class="info-list">
+                    <li><b>海拔:</b> 昆明约1900m, 大理约2000m。刚到后适度活动，多喝水防高原反应</li>
+                    <li><b>骑行安全:</b> 洱海骑行注意交通安全，雨天路滑，保持安全车距</li>
+                    <li><b>沙溪行程:</b> 沙溪古镇距离大理较远(约130公里)，全天时间较紧，请提前一晚休息</li>
+                    <li><b>日出观赏:</b> 龙龛码头看日出需早起，建议带保暖衣物和驱蚊用品</li>
+                    <li><b>酒精:</b> 高海拔地区饮酒易醉，减少酒精摄入</li>
+                    <li><b>防晒保湿:</b> 高原紫外线极强，即使阴天也需防晒</li>
+                    <li><b>包车建议:</b> 沙溪古镇和海禾村行程建议包车，让司机等待更方便，提前协商好价格</li>
+                </ul>
+            </div>
+             <div class="info-item">
+                <h4><i class="fas fa-map-pin icon"></i>主要游玩地点</h4>
+                 <ul class="info-list">
+                    <li><b>昆明:</b> 翠湖公园(免费)、福保村(免费)、南屏街步行街(购物美食)</li>
+                    <li><b>大理:</b> 大理古城(免费)、洱海生态廊道(免费)、喜洲古镇(免费)、沙溪古镇(免费)、海禾村(免费)、龙龛码头(免费)、才村(免费)</li>
+                    <li><b>鲜花饼:</b> 才村侈鲜花饼是当地知名特产，现做现卖，建议作为伴手礼</li>
+                    <li><b>购买建议:</b> 鲜花饼易碎，包装时注意保护，长途带回需妥善保存</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="transportation">
+         <h3><i class="fas fa-map icon"></i>行程路线</h3>
+         <div style="text-align: center; margin: 10px 0; border: 1px solid #eee; padding: 10px; background: #fdfdfd;">
+            <div style="font-size: 12px; color: #666; margin-bottom: 8px;">路线概览</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 5px; gap: 5px;">
+                <div style="text-align: center; padding: 5px; border: 1px solid #0066cc; border-radius: 5px; min-width: 60px; background: #eff6ff;"> <div style="font-weight: bold; color: #0066cc;">各地</div> <div style="font-size: 10px;">出发</div> </div>
+                <div style="flex-grow: 1; height: 2px; background: #0066cc; position: relative;"> <div style="position: absolute; top: -12px; width: 100%; text-align: center; font-size: 10px; color: #0066cc;"> <i class="fas fa-plane"></i> / <i class="fas fa-train"></i> (4.26) </div> </div>
+                <div style="text-align: center; padding: 5px; border: 1px solid #0066cc; border-radius: 5px; min-width: 60px; background: #eff6ff;"> <div style="font-weight: bold; color: #0066cc;">昆明</div> <div style="font-size: 10px;">2晚</div> </div>
+                <div style="flex-grow: 1; height: 2px; background: #0066cc; position: relative;"> <div style="position: absolute; top: -12px; width: 100%; text-align: center; font-size: 10px; color: #0066cc;"> <i class="fas fa-train"></i> D8702 (4.28) </div> </div>
+                <div style="text-align: center; padding: 5px; border: 1px solid #0066cc; border-radius: 5px; min-width: 60px; background: #eff6ff;"> <div style="font-weight: bold; color: #0066cc;">大理</div> <div style="font-size: 10px;">3晚</div> </div>
+                <div style="flex-grow: 1; height: 2px; background: #0066cc; position: relative;"> <div style="position: absolute; top: -12px; width: 100%; text-align: center; font-size: 10px; color: #0066cc;"> <i class="fas fa-train"></i> G2842 (5.1) </div> </div>
+                <div style="text-align: center; padding: 5px; border: 1px solid #0066cc; border-radius: 5px; min-width: 60px; background: #eff6ff;"> <div style="font-weight: bold; color: #0066cc;">重庆西</div> <div style="font-size: 10px;">返程中转</div> </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>云南双城之旅 (昆明 & 大理) | 2025.04.26 - 2025.05.01 | 四人行</p>
+        <p>最后更新: <span id="last-updated">2025.04.20</span></p> </div>
+
+    <button class="print-button" onclick="window.print()">
+        <i class="fas fa-print"></i> 打印行程表
+    </button>
+
+    <script>
+        // JavaScript for tab switching (remains same)
+        function showDay(day) {
+            const dayContents = document.querySelectorAll('.day-content');
+            dayContents.forEach(content => {
+                content.style.display = 'none';
+            });
+            document.getElementById('day' + day).style.display = 'block';
+
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+            const targetButton = Array.from(buttons).find(btn => btn.getAttribute('onclick') === `showDay(${day})`);
+             if(targetButton){
+                targetButton.classList.add('active');
+             }
+        }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            showDay(1);
+        });
+    </script>
+</body>
+</html></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Brayden Wu</div><div class="author-info-description">帅气的人生不需要解释</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/04/15/thesis-outline/" title="耶大王的论文结构与内容梳理">耶大王的论文结构与内容梳理</a><time datetime="2025-04-15T02:00:00.000Z" title="发表于 2025-04-15 10:00:00">2025-04-15</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/16/hello-world/" title="Hello World">Hello World</a><time datetime="2025-03-16T10:05:14.435Z" title="发表于 2025-03-16 18:05:14">2025-03-16</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.1em; color: #999">论文</a> <a href="/tags/iframe/" style="font-size: 1.1em; color: #999">iframe</a> <a href="/tags/%E7%BB%93%E6%9E%84%E6%A2%B3%E7%90%86/" style="font-size: 1.1em; color: #999">结构梳理</a> <a href="/tags/HTML/" style="font-size: 1.1em; color: #999">HTML</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/04/">
+            <span class="card-archive-list-date">
+              四月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/03/">
+            <span class="card-archive-list-date">
+              三月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-04-20T15:05:21.299Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Brayden Wu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  const initGitalk = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGitalk = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const gitalk = new Gitalk({
+      clientID: '',
+      clientSecret: '',
+      repo: '',
+      owner: '',
+      admin: [''],
+      updateCountCallback: commentCount,
+      ...option,
+      id: isShuoshuo ? path : (option && option.id) || '9a2cc1ed423710c11986eb6f929c0889'
+    })
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async(el, path) => {
+    if (typeof Gitalk === 'function') initGitalk(el, path)
+    else {
+      await btf.getCSS('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css')
+      await btf.getScript('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js')
+      initGitalk(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Gitalk'
+      ? window.shuoshuoComment = { loadComment: loadGitalk }
+      : window.loadOtherComment = loadGitalk
+    return
+  }
+
+  if ('Gitalk' === 'Gitalk' || !false) {
+    if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
